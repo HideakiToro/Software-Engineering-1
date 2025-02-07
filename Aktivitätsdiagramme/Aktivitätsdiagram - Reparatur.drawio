@@ -1,0 +1,138 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11">
+  <diagram name="Page-1" id="mfUGTdybZ2deZYmvmZaT">
+    <mxGraphModel dx="1332" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-1" target="aaygzzOtLOjnumNtA6Hf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-1" value="" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-4" target="aaygzzOtLOjnumNtA6Hf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-8" value="[Fahrzeug soll&amp;nbsp;&lt;div&gt;nicht repariert&lt;/div&gt;&lt;div&gt;werden]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aaygzzOtLOjnumNtA6Hf-7">
+          <mxGeometry x="-0.2303" y="3" relative="1" as="geometry">
+            <mxPoint x="10" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-4" target="aaygzzOtLOjnumNtA6Hf-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-11" value="[Fahrzeug soll repariert werden]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aaygzzOtLOjnumNtA6Hf-10">
+          <mxGeometry x="-0.1657" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-4" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-6" target="aaygzzOtLOjnumNtA6Hf-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-6" value="Fahrzeug entsorgen" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="35" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-12" target="aaygzzOtLOjnumNtA6Hf-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-17" value="[Mitarbeiter&lt;div&gt;ist&lt;/div&gt;&lt;div&gt;qualifiziert]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aaygzzOtLOjnumNtA6Hf-15">
+          <mxGeometry x="-0.5387" relative="1" as="geometry">
+            <mxPoint x="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-12" target="aaygzzOtLOjnumNtA6Hf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-12" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-13" target="aaygzzOtLOjnumNtA6Hf-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-13" value="Gutachter erstellt Gutachten" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-14" target="aaygzzOtLOjnumNtA6Hf-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-14" value="Mitarbeiter erstellt Gutachten" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry y="240" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-18" value="[Mitarbeiter&lt;div&gt;ist nicht&lt;/div&gt;&lt;div&gt;qualifiziert]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220.00333333333336" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-19" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-25" target="aaygzzOtLOjnumNtA6Hf-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-23" value="[Standort&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ist groß&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aaygzzOtLOjnumNtA6Hf-22">
+          <mxGeometry x="-0.5387" relative="1" as="geometry">
+            <mxPoint x="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-25" target="aaygzzOtLOjnumNtA6Hf-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-25" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-27" target="aaygzzOtLOjnumNtA6Hf-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-27" value="Reparatur lokal in Auftrag geben" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-29" target="aaygzzOtLOjnumNtA6Hf-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-29" value="Reparatur intern in Auftrag geben" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry y="480" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-30" value="[Standort&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ist klein]&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="230.00333333333336" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-31" target="aaygzzOtLOjnumNtA6Hf-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-31" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-19" target="aaygzzOtLOjnumNtA6Hf-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaygzzOtLOjnumNtA6Hf-33" target="aaygzzOtLOjnumNtA6Hf-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-33" value="Fahrzeugstammsatz aktualisieren" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="65" y="640" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aaygzzOtLOjnumNtA6Hf-35" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="335" y="645" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

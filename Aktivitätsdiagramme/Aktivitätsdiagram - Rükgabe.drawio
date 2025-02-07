@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11">
+  <diagram id="bYxu9FbWhrWmn1VWWeJ6" name="Page-1">
+    <mxGraphModel dx="444" dy="276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TXon2PBMtdn9izezMdrb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TXon2PBMtdn9izezMdrb-1" target="TXon2PBMtdn9izezMdrb-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-1" value="" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TXon2PBMtdn9izezMdrb-2" target="TXon2PBMtdn9izezMdrb-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-2" value="Rücknahme starten" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="35" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-4" value="Rücknahme zuteilen" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="35" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TXon2PBMtdn9izezMdrb-6" target="TXon2PBMtdn9izezMdrb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-6" value="Zustand erfassen" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="35" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TXon2PBMtdn9izezMdrb-4" target="TXon2PBMtdn9izezMdrb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TXon2PBMtdn9izezMdrb-8" target="TXon2PBMtdn9izezMdrb-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="140" />
+              <mxPoint x="500" y="105" />
+              <mxPoint x="390" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-8" value="Datenbankeintrag aktualisieren" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TXon2PBMtdn9izezMdrb-11" target="TXon2PBMtdn9izezMdrb-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-21" value="[Fahrzeug hat Schaden]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TXon2PBMtdn9izezMdrb-19">
+          <mxGeometry x="0.203" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TXon2PBMtdn9izezMdrb-11" target="TXon2PBMtdn9izezMdrb-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-11" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="375" y="125" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TXon2PBMtdn9izezMdrb-17" target="TXon2PBMtdn9izezMdrb-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-17" value="Aufbereitung&lt;div&gt;starten&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TXon2PBMtdn9izezMdrb-18" target="TXon2PBMtdn9izezMdrb-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-18" value="Schadensmanagement starten" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-22" value="[Fahrzeug hat&amp;nbsp;&lt;div&gt;keinen Schaden]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="460" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TXon2PBMtdn9izezMdrb-23" target="TXon2PBMtdn9izezMdrb-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-23" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="375" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TXon2PBMtdn9izezMdrb-26" target="TXon2PBMtdn9izezMdrb-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-26" value="Rücknahme&lt;div&gt;abschließen&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TXon2PBMtdn9izezMdrb-28" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="375" y="480" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
