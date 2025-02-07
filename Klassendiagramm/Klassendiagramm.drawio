@@ -1,0 +1,147 @@
+<mxfile host="65bd71144e">
+    <diagram name="Klassendiagramm" id="0">
+        <mxGraphModel dx="840" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="vehicle" value="Fahrzeug" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;fillColor=#9AA4B3;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="314" y="560" width="200" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="vehicle_id" value="Fahrzeug-ID: String" style="text;html=1;align=left;" parent="vehicle" vertex="1">
+                    <mxGeometry y="40" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="vehicle_model" value="Modell: String" style="text;html=1;align=left;" parent="vehicle" vertex="1">
+                    <mxGeometry y="60" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="vehicle_condition" value="Zustand: String" style="text;html=1;align=left;" parent="vehicle" vertex="1">
+                    <mxGeometry y="80" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="vehicle_mileage" value="Kilometerstand: Integer" style="text;html=1;align=left;" parent="vehicle" vertex="1">
+                    <mxGeometry y="100" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="vehicle_status" value="Mietstatus: String" style="text;html=1;align=left;" parent="vehicle" vertex="1">
+                    <mxGeometry y="120" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="customer" value="Kunde" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;fillColor=#96A395;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="340" width="200" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="customer_number" value="Kundennummer: String" style="text;html=1;align=left;" parent="customer" vertex="1">
+                    <mxGeometry y="40" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="customer_name" value="Name: String" style="text;html=1;align=left;" parent="customer" vertex="1">
+                    <mxGeometry y="60" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="customer_contact" value="Kontaktinformationen: String" style="text;html=1;align=left;" parent="customer" vertex="1">
+                    <mxGeometry y="80" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="customer_license" value="Führerschein-ID: String" style="text;html=1;align=left;" parent="customer" vertex="1">
+                    <mxGeometry y="100" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="employee" value="Mitarbeiter" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;fillColor=#B04D4D;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="314" y="980" width="200" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="employee_id" value="Mitarbeiter-ID: String" style="text;html=1;align=left;" parent="employee" vertex="1">
+                    <mxGeometry y="40" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="employee_name" value="Name: String" style="text;html=1;align=left;" parent="employee" vertex="1">
+                    <mxGeometry y="60" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="employee_role" value="Rolle: String" style="text;html=1;align=left;" parent="employee" vertex="1">
+                    <mxGeometry y="80" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="employee_qualifications" value="Qualifikationen: String" style="text;html=1;align=left;" parent="employee" vertex="1">
+                    <mxGeometry y="100" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="repair_order" value="Reparaturauftrag" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;fillColor=#A199A6;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="164" y="780" width="200" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="repair_order_number" value="Auftragsnummer: String" style="text;html=1;align=left;" parent="repair_order" vertex="1">
+                    <mxGeometry y="40" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="repair_order_status" value="Reparaturstatus: String" style="text;html=1;align=left;" parent="repair_order" vertex="1">
+                    <mxGeometry y="60" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="repair_order_cost" value="Kosten: Double" style="text;html=1;align=left;" parent="repair_order" vertex="1">
+                    <mxGeometry y="80" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="report" value="Gutachten" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;fillColor=#093C75;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="464" y="780" width="200" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="report_id" value="Gutachten-ID: String" style="text;html=1;align=left;" parent="report" vertex="1">
+                    <mxGeometry y="40" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="report_description" value="Beschreibung der Schäden: String" style="text;html=1;align=left;" parent="report" vertex="1">
+                    <mxGeometry y="60" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="report_date" value="Datum: Date" style="text;html=1;align=left;" parent="report" vertex="1">
+                    <mxGeometry y="80" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="workshop" value="Werkstatt" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;fillColor=#9E967E;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="314" y="140" width="200" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="workshop_id" value="Werkstatt-ID: String" style="text;html=1;align=left;" parent="workshop" vertex="1">
+                    <mxGeometry y="40" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="workshop_name" value="Name: String" style="text;html=1;align=left;" parent="workshop" vertex="1">
+                    <mxGeometry y="60" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="workshop_type" value="Typ: String" style="text;html=1;align=left;" parent="workshop" vertex="1">
+                    <mxGeometry y="80" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="workshop_location" value="Standort: String" style="text;html=1;align=left;" parent="workshop" vertex="1">
+                    <mxGeometry y="100" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" value="1:n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="1" source="vehicle" target="contract" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e2" value="1:1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="contract" target="customer" edge="1">
+                    <mxGeometry x="-0.0033" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e3" value="1:n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vehicle" target="repair_order" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" value="1:n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vehicle" target="report" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e5" value="1:n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="employee" target="repair_order" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e6" value="1:n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="employee" target="report" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e7" value="1:n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" parent="1" source="contract" target="repair_order" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="264" y="420"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="1:n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="workshop" target="contract">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1000" y="170" as="sourcePoint"/>
+                        <mxPoint x="264.00000000000045" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="contract" value="Mietvertrag" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;fillColor=#9E967E;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="314" y="340" width="200" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="contract_number" value="Vertragsnummer: String" style="text;html=1;align=left;" parent="contract" vertex="1">
+                    <mxGeometry y="40" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="contract_start" value="Startdatum: Date" style="text;html=1;align=left;" parent="contract" vertex="1">
+                    <mxGeometry y="60" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="contract_end" value="Enddatum: Date" style="text;html=1;align=left;" parent="contract" vertex="1">
+                    <mxGeometry y="80" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="contract_cost" value="Kosten: Double" style="text;html=1;align=left;" parent="contract" vertex="1">
+                    <mxGeometry y="100" width="200" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,188 @@
+<mxfile host="65bd71144e">
+    <diagram name="Aktivitätsdiagramm Reparatur" id="0">
+        <mxGraphModel dx="3955" dy="2045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="60" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="20" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="1550" y="20" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="21" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Fahrzeug annehmen" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#A0522D;strokeColor=#FFFF66;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="1475" y="200" width="250" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="edgeStyle=none;rounded=0;html=1;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="22" target="23">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1600" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Fahrzeug überprüfen" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#A0522D;strokeColor=#FFFF66;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="1475" y="361.91999999999996" width="250" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Entsorgung" style="edgeStyle=none;rounded=0;html=1;entryX=0.507;entryY=-0.095;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="23" target="25">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2001" y="599"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="Reparatur" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="23" target="49">
+                    <mxGeometry x="-0.4172" y="1" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1400" y="599"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Reparieren&lt;br style=&quot;font-size: 18px;&quot;&gt;oder&lt;br style=&quot;font-size: 18px;&quot;&gt;Entsorgen" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#FFFF66;fontSize=18;fillColor=#BDA500;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="1525" y="523.56" width="150" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=-0.001;exitY=0.477;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="25" target="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1800" y="720"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;rounded=0;html=1;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.999;exitY=0.478;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="25" target="28">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2150" y="730" as="targetPoint"/>
+                        <mxPoint x="2080" y="720" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="2200" y="720"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1;strokeColor=#FFFF66;fontSize=18;fillColor=#A0522D;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="1925" y="690" width="150" height="63.16" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="27" target="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1800" y="960"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Bescheinigung für Entsorgung&lt;/span&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;einholen&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#006EAF;fontSize=18;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1675" y="800" width="250" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;rounded=0;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="28" target="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2200" y="960"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Verwertbare Teile&lt;/span&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;ausbauen&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#006EAF;fontSize=18;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="2075" y="800" width="250" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="edgeStyle=none;rounded=0;html=1;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="34" target="44">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2000" y="1220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Verschrottung beautragen&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#006EAF;fontSize=18;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1875" y="1057.92" width="250" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="35" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;strokeColor=#FFFF66;fontSize=18;fillColor=#BDA500;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="1970" y="930" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="44" target="48">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2000" y="1400"/>
+                            <mxPoint x="1600" y="1400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Entsorungsnachweis erhalten&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#006EAF;fontSize=18;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1875" y="1230" width="250" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;rounded=0;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="47" target="68">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1930" y="1754"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Datenbank aktualisieren&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#006EAF;fontSize=18;fillColor=#647687;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1805" y="1560" width="250" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="48" target="56">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1270" y="1472"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="48" target="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1930" y="1470"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="48" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1;strokeColor=#FFFF66;fontSize=18;fillColor=#A0522D;" vertex="1" parent="1">
+                    <mxGeometry x="1525" y="1440" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="49" target="50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Reparaturauftrag erstellen&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#006EAF;fontSize=18;fillColor=#19E298;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1275" y="800" width="250" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="50" target="48">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1400" y="1400"/>
+                            <mxPoint x="1600" y="1400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Reparatur durchführen&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#006EAF;fontSize=18;fillColor=#19E298;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1275" y="1230.0000000000002" width="250" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="edgeStyle=none;rounded=0;html=1;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="55" target="68">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Dokumentation&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#006EAF;fontSize=18;fillColor=#647687;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1475" y="1560" width="250" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="56" target="68">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1270" y="1754"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Fahrzeugstammsatz aktualisieren&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#006EAF;fontSize=18;fillColor=#647687;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1145" y="1560" width="250" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="Ende" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#6F0000;fontSize=18;fillColor=#a20025;fontColor=#ffffff;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="1475" y="1850" width="250" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="68" target="63">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;strokeColor=#FFFF66;fontSize=18;fillColor=#BDA500;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="1570" y="1723.5" width="60" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
